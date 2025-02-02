@@ -1,0 +1,61 @@
+[gd_scene load_steps=4 format=3 uid="uid://ddarfkldy0c7h"]
+
+[ext_resource type="Script" path="res://scripts/DayDot.cs" id="1_kcuf5"]
+[ext_resource type="Texture2D" uid="uid://cv61qwcbnxqbt" path="res://images/dots/monday.png" id="2_122cq"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_sjrds"]
+
+[node name="DayDot" type="PanelContainer"]
+custom_minimum_size = Vector2(128, 128)
+offset_right = 128.0
+offset_bottom = 128.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxEmpty_sjrds")
+script = ExtResource("1_kcuf5")
+
+[node name="Image" type="Control" parent="."]
+layout_mode = 2
+
+[node name="Background" type="TextureRect" parent="Image"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+texture = ExtResource("2_122cq")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="Text" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="T" type="Control" parent="Text"]
+custom_minimum_size = Vector2(0, 5)
+layout_mode = 2
+
+[node name="Day" type="Label" parent="Text"]
+custom_minimum_size = Vector2(0, 36)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "MON"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Date" type="Label" parent="Text"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 26
+text = "99/99/99
+23:59PM"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="B" type="Control" parent="Text"]
+custom_minimum_size = Vector2(0, 12)
+layout_mode = 2

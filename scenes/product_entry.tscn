@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://bfbo3vgbl5g3o"]
+
+[ext_resource type="Script" path="res://scripts/ProductEntry.cs" id="1_8lc6o"]
+[ext_resource type="PackedScene" uid="uid://ddarfkldy0c7h" path="res://scenes/day_dot.tscn" id="2_83r8r"]
+
+[node name="Product" type="HBoxContainer"]
+custom_minimum_size = Vector2(256, 0)
+offset_right = 256.0
+offset_bottom = 128.0
+size_flags_horizontal = 3
+script = ExtResource("1_8lc6o")
+
+[node name="_B" type="Control" parent="."]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "[Product Name]"
+flat = true
+autowrap_mode = 3
+
+[node name="DayDot" parent="." instance=ExtResource("2_83r8r")]
+layout_mode = 2
+
+[node name="_E" type="Control" parent="."]
+layout_mode = 2

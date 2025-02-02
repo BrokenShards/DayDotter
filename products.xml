@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProductList>
+       <Product Name="Tea Cake"
+                Lifetime="0.12:00:00"/>
+       <Product Name="White Bread"
+                Lifetime="3.00:00:00"/>
+       <Product Name="Brown Bread"
+                Lifetime="3.00:00:00"/>
+       <Product Name="Blueberry Muffin"
+                Lifetime="1.00:00:00"/>
+       <Product Name="Lemon Muffin"
+                Lifetime="1.00:00:00"/>
+       <Product Name="Chocolate Banana Muffin"
+                Lifetime="1.00:00:00"/>
+       <Product Name="Cinnamon Bun"
+                Lifetime="1.00:00:00"/>
+       <Product Name="Milk Cookie"
+                Lifetime="2.00:00:00"/>
+       <Product Name="Triple Chocolate Cookie"
+                Lifetime="2.00:00:00"/>
+       <Product Name="Millionaire's Shortbread"
+                Lifetime="5.00:00:00"/>
+       <Product Name="Salted Caramel Brownie"
+                Lifetime="5.00:00:00"/>
+       <Product Name="Raspberry and Almond Bake"
+                Lifetime="5.00:00:00"/>
+       <Product Name="Tiffin"
+                Lifetime="5.00:00:00"/>
+       <Product Name="Lemon Drizzle Loaf Cake"
+                Lifetime="5.00:00:00"/>
+       <Product Name="Orange and Raspberry Victoria Sponge"
+                Lifetime="5.00:00:00"/>
+       <Product Name="Carrot and Walnut Cake"
+                Lifetime="5.00:00:00"/>
+</ProductList>
